@@ -1,0 +1,502 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    border-top: 5px solid #29ca8e;
+    background: white;
+    width: 100%;
+    position: fixed;
+}
+
+.nav-parent {
+    height: 15vh;
+    margin: 0 auto;
+    max-width: 83%;
+}
+
+.logo {
+    background: url(/LESSON/Maramim/logo.jpg) no-repeat;
+    height: 100px;
+    position: absolute;
+    width: 100px;
+    
+}
+
+.header_items {
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav-items ul {
+    list-style: none;
+    padding-right: 30px;
+}
+
+.navcontact-card {
+    margin: 0 0 0 230px;
+    width: 82%;
+}
+
+.nav-items ul li {
+    width: 100px;
+    float: left;
+}
+
+.nav-items ul li a {
+    color: black;
+    display: block;
+    padding: 10px;
+}
+
+.nav-items ul li a:hover {
+    color: white;
+    background: #29ca8e;
+}
+
+.phone-icon {
+    background: #29ca8e;
+    border-radius: 50%;
+    padding: 7px;
+    text-decoration: none;
+    width: 30px;
+    text-align: center;
+}
+
+.icon {
+    font-size: 16px;
+    margin: 0 10px 0 0;
+    vertical-align: middle;
+}
+
+ .list {
+    display: inline-block;
+}
+
+.list:hover .sub-menu1{
+    display: block; 
+    position: absolute;
+}
+.list:hover .sub-menu1 li{
+    display: block;
+    background: green;
+    border-bottom: 1px dotted white;
+    float: none;
+}
+
+.sub-menu1 {
+    display: none;
+}
+
+.banner {
+    height: 100vh;
+    background: url(/LESSON/Maramim/work-7.jpg);
+    background-position: center;
+}
+
+.banner h1 {
+    color: chocolate;
+    font-weight: bold;
+    font-family: serif;
+}
+
+.banner h1:hover {
+    color: #29ca8e;
+}
+
+.banner h3 {
+    color: black;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.button-discover {
+    color: black;
+    margin-top: 40px;
+    background: orange;
+    border-radius: 25px;
+    font-size: 15px;
+    padding: 17px 35px;
+    margin: 10px 0 0 0;
+    border: none;
+}
+
+.button-discover:hover {
+    color: black;
+    background: white;
+}
+
+.about {
+    background: rgba(128, 128, 128, 0.07);
+    text-align: center;
+    padding: 35px;
+    height: 300px;
+}
+
+.about h1 {
+    font-size: 30px;
+    margin: 0 0 20px 0;
+}
+
+.about p {
+    font-size: 20px;
+}
+
+.row {
+    margin: 0 auto;
+    max-width: 83%;
+}
+
+.row1 {
+    display: flex;
+    width: 83%;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.mission {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+}
+
+.simple-cards {
+    padding: 30px;
+    width: 30%;
+    vertical-align: middle !important;
+    border: 2px solid #29ca8e;
+}
+
+.simple-cards h2 {
+    margin: 10px 0 20px 0;
+}
+
+.first-p {
+    margin: 0 0 10px 0;
+    font-size: 20px;
+}
+
+.icon-holder {
+    background: #29ca8e;
+    height: 60px;
+    border: 1px solid #29ca8e;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    border-radius: 50%;
+    line-height: 2.5;
+    font-size: 20px;
+    width: 60px;
+}
+
+.simple_icons {
+    font-size: 25px;
+    color: yellow;
+}
+
+.simple-cards:hover .icon-holder {
+    background: #29ca8e;
+}
+
+.simple-cards:hover .simple_icons {
+    color: white;
+}
+
+.simple-cards:hover {
+    color: #29ca8e;
+}
+
+.services {
+    clear: both;
+    padding: 20px 0 0 0;
+    height: 650px;
+}
+
+.services-title {
+    margin: 0 0 20px 0;
+    font-weight: bold;
+}
+.ex-cards{
+    height: 150px;
+    padding: 10px;
+}
+.ex-icon-holder {
+    margin: 0 15px 0 0;
+    float: left;
+}
+.ex-text h2 {
+    margin: 0 0 5px 0;
+}
+.ex-text p {
+    margin-top: 2px;
+    line-height: 25px;
+}
+.project {
+    background: rgba(128, 128, 128, 0.07);
+    height: 800px;
+}
+.project-title {
+    text-align: center;
+    margin: 100px 0 50px 0;
+}
+.gallery {
+    height: 230px;
+    width: 240px;
+}
+.projects-family {
+    display: flex;
+    height: 440px;
+    width: 100%;
+}
+.project1 {
+    padding: 10px;
+    height: 390px;
+}
+.writeup {
+    padding: 18px;
+    background-color: white;
+    height: 135px;
+    line-height: 1.4;
+    color: black;
+}
+.more_options_button {
+    background-color: brown;
+    padding: 12px 40px;
+    margin: 0 0 0 420px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+.more_options_button h3 {
+    color: white;
+    margin: 2px -40px;
+    padding: 0 15px;
+    text-align: center;
+}
+.more_options_button a{
+    text-decoration: none;
+    font-size: 15px;
+}
+.more_options_button:hover{
+    background: #ffa500;
+}
+.blog {
+    height: 800px;
+}
+.blog-title{
+    text-align: center;
+    margin: 100px 0 60px 0;
+}
+.blog-gallery{
+    height: 253px;
+    width: 338px;
+}
+.blog-family{
+    display: flex;
+    height: 580px;
+    width: 100%;
+}
+.blog-w{
+    padding: 20px 20px 0 20px;
+    background-color: rgba(128, 128, 128, 0.07);
+    line-height: 1.4;
+    color: black;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.blog-w:hover{
+    color: orange;
+}
+.blog-subfam{
+    padding: 10px;
+    height: 550px;
+}
+.blog-subfam p{
+    background-color: rgba(128, 128, 128, 0.07);
+    padding: 0 20px 40px 20px;
+    line-height: 1.4;
+}
+.pclass{
+    height: 170px;
+}
+.read-btn{
+    background: orange;
+    border-radius: 3px;
+    margin: 15px 15px 0 230px;
+    padding: 5px;
+}
+.read-btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn-click{
+    margin: 0 32rem 0 32rem;
+    text-align: center;
+    background-color: rgba(80, 78, 78, 0.07);
+    display: flex;
+    justify-content: space-between;
+}
+.btn-click a{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color: #29ca8e;
+    font-weight: bold;
+}
+.btn-click a:hover {
+    background-color: #29ca8e;
+    color: white;
+}
+.previous {
+    color: black;
+}
+.next {
+    color: black;
+}
+.client {
+    background: rgba(128, 128, 128, 0.07);
+    height: 850px;
+    margin-top: 15%; 
+}
+.client-title{
+    text-align: center;
+    margin: 80px 0 50px 0;
+}
+.client-p{
+    background-color: white;
+    padding: 4em 3em ;
+    border-top-left-radius: 5%;
+    margin-right: 2rem;
+}
+.img-r {
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+}
+.client-family {
+    display: flex;
+    justify-content: space-between;
+    height: 580px;
+    width: 100%;
+    padding: 10px;
+    clear: both;
+    
+}
+.author{
+    margin: 20px;
+}
+.author h4{
+    font-size: 20px;
+}
+.a-rating1 {
+    color: blue;
+    margin-top: 2rem
+}
+.a-rating2 {
+    margin-top: 1rem;
+    color: blue;
+}
+.a-rating3 {
+    color: blue;
+    margin-top: -50px;
+}
+.ct {
+    line-height: 1.6;
+}
+.author{
+    margin: -55px 0 50px 70px;
+}
+.ct1 {
+    height: 22rem;
+}
+.ct2 {
+    height: 22rem;
+}
+.ct3 {
+    height: 22rem;
+    margin-top: -10px;
+}
+.footer{
+    background: #252020;
+    height: 100%;
+}
+.footer-th {
+    height: 100%;
+    margin-top: 100px;
+}
+.ff{
+    display: flex;
+    height: 400px;
+    padding: 0 40px 0 0;
+    background: #252020;
+}
+.social {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.social li{
+    display: inline-block;
+    border-radius: 50%;
+    margin: 50px 0 5px 0;
+    padding: 10px;
+}
+.social li a{
+    display: block;
+    padding: 5px;
+    color: #ffa500;
+    text-decoration: none;
+    font-size: 20px;
+}
+.social li a:hover{
+    border-radius: 50%;
+    background-color: #ffa500;
+    color: white;
+}
+.footer-t{
+    color: white;
+}
+.quick-links-list li{
+    display: inline-block;
+    padding: 0 5px 0 0;
+    margin-top: 10px;
+}
+.quick-links-list li a{
+    text-decoration: none;
+    color: #909090;
+}
+.quick-links-list li a:hover{
+    color: #ffa500;
+}
+.quick-links{
+    margin: 40px;
+}
+.p-s{
+    color: #909090;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 24px;
+}
+.p-s a{
+    text-decoration: none;
+    color: #909090;
+}
+.mailto_p a:hover{
+    color: #ffa500;
+}
+.input:focus {
+    outline: 0;
+    box-shadow: 0 0 0;
+}
+.input[type="email"] {
+    background: #252020;
+}
+
+
+
+
