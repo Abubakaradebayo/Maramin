@@ -18,7 +18,7 @@ header {
 }
 
 .logo {
-    background: url(/LESSON/Maramim/logo.jpg) no-repeat;
+    background: url(/Maramim/logo.jpg) no-repeat;
     height: 100px;
     position: absolute;
     width: 100px;
@@ -92,7 +92,7 @@ header {
 
 .banner {
     height: 100vh;
-    background: url(/LESSON/Maramim/work-7.jpg);
+    background: url(/Maramim/work-7.jpg);
     background-position: center;
 }
 
